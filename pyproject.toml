@@ -1,0 +1,11 @@
+[project]
+name = "langchain-ex"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "gradio>=5.45.0",
+    "langchain>=0.3.27",
+    "langchain-ollama>=0.2.1",
+]
