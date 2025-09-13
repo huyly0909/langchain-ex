@@ -55,8 +55,8 @@ def create_interface():
                 
             with gr.Column(scale=1):
                 model_dropdown = gr.Dropdown(
-                    choices=["✅ Auto (Ollama)", "❓ GPT (OpenAI)", "❓ Claude (Anthropic)"],
-                    value="✅ Auto (Ollama)",
+                    choices=["Auto (Ollama)", "GPT (OpenAI)", "Claude (Anthropic)"],
+                    value="Auto (Ollama)",
                     label="AI Model"
                 )
                 
