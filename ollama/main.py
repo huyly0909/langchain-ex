@@ -21,7 +21,7 @@ def create_ollama_chain():
 def main():
     """Main interactive loop for the chatbot"""
     print("🦙 Welcome to LangChain + Ollama Chat!")
-    print("Using model: qwen2.5:3b")
+    print("Using model: qwen3:8b")
     print("Type 'quit', 'exit', or 'q' to stop the conversation.\n")
     
     try:
@@ -51,13 +51,13 @@ def main():
                 
             except Exception as e:
                 print(f"❌ Error getting response: {e}")
-                print("Make sure Ollama is running and the qwen2.5:3b model is available.\n")
+                print("Make sure Ollama is running and the qwen3:8b model is available.\n")
                 
     except KeyboardInterrupt:
         print("\n👋 Goodbye!")
     except Exception as e:
         print(f"❌ Error initializing the application: {e}")
-        print("Make sure Ollama is running and the qwen2.5:3b model is available.")
+        print("Make sure Ollama is running and the qwen3:8b model is available.")
 
 
 if __name__ == "__main__":

@@ -5,13 +5,13 @@ A LangChain application that integrates with Ollama to provide an interactive ch
 ## Features
 
 - Interactive chatbot using LangChain and Ollama
-- Uses qwen2.5:3b model (configurable)
+- Uses qwen3:8b model (configurable)
 - Simple prompt-response loop with graceful error handling
 
 ## Prerequisites
 
 1. **Install Ollama**: Download and install from [ollama.ai](https://ollama.ai)
-2. **Pull the model**: Run `ollama pull qwen2.5:3b` to download the model
+2. **Pull the model**: Run `ollama pull qwen3:8b` to download the model
 3. **Start Ollama**: Run `ollama serve` to start the Ollama service
 
 ## Installation
