@@ -1,0 +1,9 @@
+@app.route('/fibonacci', methods=['POST'])
+def fibonacci():
+    payload = request.get_json()
+    if 'n' not in payload or not isinstance(payload['n'], int):
+        raise ValueError("payload must include a 'n' key with an integer value")
+    
+    n = payload['n']
+    response = requests.post('http://localhost:5000/fibonacci', json={'n': n})
+    return response.json()
