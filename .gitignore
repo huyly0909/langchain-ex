@@ -212,5 +212,4 @@ __marimo__/
 # VSCode
 .vscode/
 .history/
-*data/
 results/

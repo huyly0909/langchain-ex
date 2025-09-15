@@ -45,7 +45,7 @@ def create_interface():
         
         with gr.Row():
             with gr.Column(scale=3):
-                chatbot = gr.Chatbot(height=500, avatar_images=("../data/User.png", "../data/AI Assistant.png"))
+                chatbot = gr.Chatbot(height=500, avatar_images=("../static/User.png", "../static/AI Assistant.png"))
                 with gr.Row():
                     with gr.Column(scale=3):
                         msg_input = gr.Textbox(placeholder="Type your message...", scale=4)
